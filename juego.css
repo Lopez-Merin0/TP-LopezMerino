@@ -1,0 +1,523 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #D6BD98;
+    font-family: "Lexend Deca";
+    border-radius: 0 0 20px 20px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    z-index: 1000;
+}
+
+#logo {
+    width: 90px;
+    height: 80px;
+    margin-right: 20px;
+}
+
+#links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #1A3636;
+}
+
+main {
+    margin-top: 70px;
+    background-color: #40534C;
+    border-radius: 20px;
+    color: white;
+    overflow: hidden;
+    height: 400px;
+}
+
+#icon {
+    width: 360px;
+    height: 340px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    float: left;
+    border: 5px solid white;
+}
+
+#Titu {
+    font-family: "Rubik Bubbles";
+    display: block;
+    font-size: 40px;
+}
+
+#info {
+    font-family: "Playpen Sans";
+    display: block;
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+#Herramientas {
+    font-family: "Rubik Bubbles";
+    background-color: #6A9C89;
+    text-align: center;
+    border-radius: 20px;
+    color: #16423C;
+    overflow: hidden;
+    height: 520px;
+    margin-top: 20px;
+}
+
+.herramienta-1 {
+    display: inline-block;
+    margin: 10px;
+    background-color: #C4DAD2;
+    border-radius: 40px;
+    height: 400px;
+    width: 280px;
+    font-family: "Concert One";
+    color: #16423C;
+    font-size: 12px;
+}
+
+.herramienta-1 img {
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+}
+
+.herramienta-2 {
+    display: inline-block;
+    margin: 10px;
+    background-color: #C4DAD2;
+    border-radius: 40px;
+    height: 400px;
+    width: 280px;
+    font-family: "Concert One";
+    color: #16423C;
+    font-size: 12px;
+
+}
+
+.herramienta-2 img {
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+}
+
+.herramienta-3 {
+    display: inline-block;
+    margin: 10px;
+    background-color: #C4DAD2;
+    border-radius: 40px;
+    height: 400px;
+    width: 280px;
+    font-family: "Concert One";
+    color: #16423C;
+    font-size: 12px;
+}
+
+.herramienta-3 img {
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+}
+
+#Pantallas {
+    font-family: "Rubik Bubbles";
+    background-color: #677D6A;
+    text-align: center;
+    border-radius: 20px;
+    color: #1A3636;
+    overflow: hidden;
+    height: 550px;
+    margin-top: 20px;
+}
+
+.pantalla-1 {
+    display: inline-block;
+    margin: 10px;
+    background-color: #C4DAD2;
+    border-radius: 40px;
+    height: 300px; 
+    width: 280px;
+    font-family: "Concert One";
+    color: #1A3636;
+    font-size: 12px;
+}
+
+
+.pantalla-1 img {
+    width: 250px !important;
+    height: 250px !important;
+    margin-top: 20px;
+    border: 5px double #16423C;
+    border-radius: 20px;
+}
+
+.pantalla-2 {
+    display: inline-block;
+    margin: 10px;
+    background-color: #C4DAD2;
+    border-radius: 40px;
+    height: 450px;
+    width: 280px;
+    font-family: "Concert One";
+    color: #1A3636;
+    font-size: 12px;
+
+}
+
+.pantalla-2 img {
+    width: 250px !important;
+    height: 250px !important;
+    margin-top: 20px;
+    border: 5px double #16423C;
+    border-radius: 20px;
+}
+
+
+.pantalla-3 {
+    display: inline-block;
+    margin: 10px;
+    background-color: #C4DAD2;
+    border-radius: 40px;
+    height: 450px;
+    width: 280px;
+    font-family: "Concert One";
+    color: #1A3636;
+    font-size: 12px;
+}
+
+.pantalla-3 img {
+    width: 250px !important;
+    height: 250px !important;
+    margin-top: 20px;
+    border: 5px double #16423C;
+    border-radius: 20px;
+}
+
+
+#Form {
+    background-color: #40534C;
+    border-radius: 20px;
+    color: white;
+    overflow: hidden;
+    height: 500px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+#Form h1,
+h2,
+input {
+    font-family: "Playpen Sans";
+    display: block;
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+#Form img {
+    width: 360px;
+    height: 280px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 115px;
+    float: left;
+    border: 5px solid white;
+    border-radius: 20px;
+}
+
+#Form button {
+    background-color: white;
+    font-family: "Concert One";
+    border-radius: 20px;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 230px;
+}
+
+#final {
+    margin-top: 20px;
+    background-color: #D6BD98;
+    font-family: "Lexend Deca";
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    height: 200px;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+
+#final img {
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+}
+
+.sociales image {
+    width: 300px;
+    height: 300px;
+}
+
+
+.menus {
+    display: flex;
+    flex-direction: column;
+}
+
+.menus a {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #1A3636;
+    font-weight: bold;
+}
+
+.menus h1,
+.sociales h1 {
+    color: #1A3636;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.sociales {
+    text-align: center;
+}
+
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #logo {
+        width: 70px;
+        height: 60px;
+    }
+
+    #links {
+        font-size: 16px;
+    }
+
+    main {
+        height: auto;
+        text-align: center;
+    }
+
+    #icon {
+        width: 200px;
+        height: auto;
+        margin: 0 auto;
+        display: block;
+        float: none;
+    }
+
+    .herramientas,
+    .proyecto {
+        width: 90%;
+        margin: 10px auto;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+
+    header {
+        flex-direction: column;
+        font-size: 14px;
+    }
+
+    #links {
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    #logo {
+        width: 60px;
+        height: 50px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    #Titu {
+        font-size: 30px;
+    }
+
+    #info {
+        font-size: 15px;
+    }
+
+    #icon {
+        width: 180px;
+        margin-bottom: 20px;
+    }
+
+    #Herramientas {
+        padding: 10px;
+        height: auto;
+    }
+
+    #Pantallas {
+        padding: 10px;
+        height: auto;
+    }
+
+    .herramienta,
+    .pantalla {
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .sociales {
+        font-size: 13px;
+    }
+}
+
+/* Aparición inicial */
+.herramienta-1,
+.herramienta-2,
+.herramienta-3,
+.proyecto-1,
+.proyecto-2,
+.proyecto-3 {
+    display: inline-block;
+    margin: 10px;
+    background-color: #C4DAD2;
+    border-radius: 40px;
+    height: 400px;
+    width: 280px;
+    font-family: "Concert One";
+    color: #16423C;
+    font-size: 12px;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 0.6s ease forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.herramienta-1:hover,
+.herramienta-2:hover,
+.herramienta-3:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.herramienta-1 img,
+.herramienta-2 img,
+.herramienta-3 img {
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+    transition: transform 0.3s ease;
+}
+
+.herramienta-1:hover img,
+.herramienta-2:hover img,
+.herramienta-3:hover img {
+    transform: scale(1.1);
+}
+
+.pantalla-1,
+.pantalla-2,
+.pantalla-3 {
+    display: inline-block;
+    margin: 10px;
+    background-color: #C4DAD2;
+    border-radius: 40px;
+    height: 450px;
+    width: 280px;
+    font-family: "Concert One";
+    color: #1A3636;
+    font-size: 12px;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 0.6s ease forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.pantalla-1:hover,
+.pantalla-2:hover,
+.pantalla-3:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.pantalla-1 img,
+.pantalla-2 img,
+.pantalla-3 img {
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    border: 5px double #16423C;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+
+.pantalla-1:hover img,
+.pantalla-2:hover img,
+.pantalla-3:hover img {
+    transform: scale(1.1);
+}
+
+.pantalla-1 button,
+.pantalla-2 button,
+.pantalla-3 button {
+    background-color: #16423C;
+    color: #E9EFEC;
+    font-family: "Concert One";
+    border-radius: 20px;
+    font-size: 25px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0;
+    transform: translateY(10px);
+    animation: fadeIn 0.6s ease forwards;
+}
+
+.pantalla-1 button:hover,
+.pantalla-2 button:hover,
+.pantalla-3 button:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
